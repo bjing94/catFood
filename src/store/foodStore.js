@@ -8,7 +8,6 @@ export class FoodStore {
   }
 
   addToCart(itemId) {
-    console.log("pushing", itemId);
     this.shoppingCart.push(itemId);
   }
 }
